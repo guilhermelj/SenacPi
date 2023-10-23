@@ -1,8 +1,10 @@
 # Projeto Integrador Senac
 
-## Título do Projeto: Site de Receitas
+**Título do Projeto:** Site de Receitas
 
-## Status do Projeto: Em Desenvolvimento
+## Status do Projeto:
+
+Em Desenvolvimento🟢
 
 ## Tecnologias Aplicadas:
 
