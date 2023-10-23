@@ -1,22 +1,22 @@
-#Projeto Integrador Senac
+# Projeto Integrador Senac
 
-##Título do Projeto: Site de Receitas
+## Título do Projeto: Site de Receitas
 
-##Status do Projeto: Em Desenvolvimento
+## Status do Projeto: Em Desenvolvimento
 
-##Tecnologias Aplicadas:
+## Tecnologias Aplicadas:
 
 HTML, CSS, JavaScript
 Java
 
-##Time de Desenvolvedores:
+## Time de Desenvolvedores:
 
 Desenvolvedor 1: Guilherme Luiz
 
-##Objetivo do Software:
+## Objetivo do Software:
 O objetivo do software é criar um site simples para compartilhar receitas. Os usuários podem adicionar novas receitas, visualizar receitas existentes e remover receitas que não desejam mais manter no site.
 
-##Funcionalidades do Sistema (Requisitos):
+## Funcionalidades do Sistema (Requisitos):
 
 Adicionar Nova Receita: Os usuários podem adicionar uma nova receita, fornecendo um título, ingredientes e instruções.
 Listagem de Receitas: O sistema exibirá a lista de receitas cadastradas, incluindo o título.
