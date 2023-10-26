@@ -1,0 +1,26 @@
+.receita-title-holder {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 128px;
+}
+
+.receita-title-holder > .receita-title > div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.receita-title {
+    width: fit-content;
+}
+
+.receita-title-holder img {
+    max-width: 750px;
+}
+
+p {
+    margin-bottom: 32px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="common.css"/>
+    <link rel="stylesheet" type="text/css" href="cadastrar.css"/>
+</head>
+<body>
+    <nav class="navigation-bar">
+        <h1>ReceitasApp</h1>
+        <div class="links">
+            <a href="/">Receitas</a>
+            <a href="/cadastrar.html">Cadastrar nova receita</a>
+        </div>
+    </nav>
+
+    <div class="form-holder">
+        <form>
+            <strong>Nome da Receita</strong>
+            <input class="text-box" type="text" placeholder="eg:. Estrogonofe de Frango">
+            <strong>Selecione uma imagem</strong>
+            <input type="file"/>
+            <strong>Receita</strong>
+            <textarea class="text-area" placeholder="eg:. Ingredientes, modo de preparo etc."></textarea>
+            <div>
+                <strong>Serve até</strong>
+                <input class="text-box" style="width: 48px;"type="number" min="1" max="10" placeholder="eg:. 2">
+                <strong>pessoas</strong>
+            </div>
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+
+    <footer class="footer-bar"></footer>
+</body>
+</html>
