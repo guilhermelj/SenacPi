@@ -16,22 +16,25 @@
     </nav>
 
     <div class="form-holder">
-        <form>
+        <form id="form">
             <strong>Nome da Receita</strong>
-            <input class="text-box" type="text" placeholder="eg:. Estrogonofe de Frango">
-            <strong>Selecione uma imagem</strong>
-            <input type="file"/>
+            <input required name="nome" class="text-box" type="text" minlength="4" maxlength="14" placeholder="eg:. Estrogonofe de Frango">
+            <strong>Selecione uma imagem (.jpg ou .png)</strong>
+            <input required name="file" type="file" accept="image/png,image/jpeg"/>
             <strong>Receita</strong>
-            <textarea class="text-area" placeholder="eg:. Ingredientes, modo de preparo etc."></textarea>
+            <textarea required name="receita" class="text-area" minlength="15" maxlength="1280" placeholder="eg:. Ingredientes, modo de preparo etc."></textarea>
             <div>
                 <strong>Serve até</strong>
-                <input class="text-box" style="width: 48px;"type="number" min="1" max="10" placeholder="eg:. 2">
+                <input name="quantiaPessoas" class="text-box" style="width: 48px;"type="number" min="1" max="10" placeholder="eg:. 2" required>
                 <strong>pessoas</strong>
             </div>
-            <button type="submit">Cadastrar</button>
+            <button id="cadastrar-btn" type="submit">Cadastrar</button>
         </form>
     </div>
 
     <footer class="footer-bar"></footer>
+
+    <script src="/consts.js" type="module"></script>
+    <script src="/cadastrar.js" type="module"></script>
 </body>
 </html>
